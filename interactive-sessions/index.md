@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Interactive Sessions
-nav_order: 2
+nav_order: 3
 description: "Guide on How to Use Interactive Sessions on Great Lakes"
 has_children: true
 permalink: /interactive-sessions
