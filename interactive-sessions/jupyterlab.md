@@ -12,4 +12,4 @@ JupyterLab a new web-based interactive development environment from Jupyter. It 
 Go to the [Great Lakes web interface](https://greatlakes.arc-ts.umich.edu/) and navigate to "My Interactive Sessions". You'll see something like below.
 ![JupyterLab Web Interface](jupyterlab.png)
 
-All the configuration options are pretty self-explanatory, but one option that needs care is the Slurm account. Interactive sessions are supposed to be short and mainly for debugging. So, instead of using our paid accounts, it's a good idea to use a free account provided by ARC called `engin1`. It's shared across the whole College of Engineering, so technically you may need to wait for your JupyterLab to launch, but usually there's no wait.
+All the configuration options are pretty self-explanatory. Simply scroll down to the bottom of the page and click the launch button.
