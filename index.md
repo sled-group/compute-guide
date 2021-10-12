@@ -6,7 +6,8 @@ description: "This is a guide to using the Great Lakes Slurm cluster of the Univ
 permalink: /
 ---
 # Guide to Using Great Lakes
-This website is a repository of collective knowledge, tips and tricks on how to use Great Lakes effectively for your research. {: .fs-6 .fw-300 }
+This website is a repository of collective knowledge, tips and tricks on how to use Great Lakes effectively for your research.
+{: .fs-6 .fw-300 }
 
 ## What is Great Lakes?
 The Great Lakes Slurm cluster is a computing cluster maintained by Advanced Research Computing (ARC), a division of Information and Technology Services (ITS) of the University of Michigan. This is the main computing resource you will be using for your research at the University of Michigan.
