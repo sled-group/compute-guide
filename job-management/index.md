@@ -6,7 +6,7 @@ description: "Guide on How to Manage Your Jobs"
 has_children: true
 permalink: /job-management
 ---
-# Job Monitoring
+# Job Management
 
 Quick tips on monitoring your jobs.
 {: .fs-6 .fw-300 }
