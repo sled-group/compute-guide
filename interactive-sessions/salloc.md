@@ -1,6 +1,6 @@
 ---
 layout: default
-title: `salloc`
+title: salloc
 parent: Interactive Sessions
 nav_order: 4
 ---

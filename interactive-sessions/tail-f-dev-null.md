@@ -1,6 +1,6 @@
 ---
 layout: default
-title: `tail -f /dev/null`
+title: tail -f /dev/null
 parent: Interactive Sessions
 nav_order: 3
 ---
