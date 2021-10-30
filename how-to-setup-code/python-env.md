@@ -37,7 +37,7 @@ source venv/bin/activate
 1. Load your Python version using `module load`.
     1. `module avail` would show you all the available modules.
     2. For example, at the time of writing, `python3.8-anaconda/2021.05` is available, so you'd issue `module load python3.8-anaconda/2021.05`.
-2. Create a virtual environment by issuing `conda create -n <env-name>`. This will create a directory called `venv` where your virtual environment would exist.
+2. Create a virtual environment by issuing `conda create -n <env-name>`.
     1. Note that if you want to use another Python version, you shouldn't load another version of conda, rather you'd load the same version of conda, and create a virtual environment with a different Python version by running `conda create -n <env-name> python=3.6`
 3. Activate your virtual environment by issuing `conda activate <env-name>`.
     1. You can deactivate it by issuing `conda deactivate`.
