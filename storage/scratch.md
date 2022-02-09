@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Scratch Storage
-parent: storage
+parent: Storage
 nav_order: 1
 ---
 
