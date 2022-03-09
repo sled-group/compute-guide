@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Whistler
+has_children: true
 nav_order: 1
 description: "This is a guide to using the Whistler workstation at SLED Reserch Group."
 permalink: /whistler
