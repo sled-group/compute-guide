@@ -4,7 +4,7 @@ title: Tips
 nav_order: 100
 description: "Tips to survive with bugs&features of GL"
 has_children: true
-permalink: /interactive-sessions
+permalink: /great-lakes/interactive-sessions
 ---
 
 # Tips

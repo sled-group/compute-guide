@@ -4,7 +4,7 @@ title: Storage
 nav_order: 20
 description: "About File System on GreatLakes"
 has_children: true
-permalink: /interactive-sessions
+permalink: /great-lakes/interactive-sessions
 ---
 
 # Storage

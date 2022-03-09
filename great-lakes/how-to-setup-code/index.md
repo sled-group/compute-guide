@@ -4,7 +4,7 @@ title: How to Setup Your Code
 nav_order: 4
 description: "Guide on How to Setup Your Code"
 has_children: true
-permalink: /how-to-setup-code
+permalink: /great-lakes/how-to-setup-code
 ---
 # How to Setup Your Code
 

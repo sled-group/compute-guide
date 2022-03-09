@@ -3,7 +3,7 @@ layout: default
 title: Slurm Accounts
 nav_order: 2
 description: "Guide to using the right Slurm accounts"
-permalink: /slurm-accounts
+permalink: /great-lakes/slurm-accounts
 ---
 
 # Slurm Accounts

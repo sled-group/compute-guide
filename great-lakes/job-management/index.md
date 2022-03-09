@@ -4,7 +4,7 @@ title: Job Management
 nav_order: 5
 description: "Guide on How to Manage Your Jobs"
 has_children: true
-permalink: /job-management
+permalink: /great-lakes/job-management
 ---
 # Job Management
 
