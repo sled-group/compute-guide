@@ -8,7 +8,7 @@ permalink: /whistler/add-new-user
 ---
 # How to add new user to Whistler
 
-Note: This guide is intended for Ph.D. students to add access for their mentees, should they require Whistler access. Remember, Whistler access should be given in a need-to-use manner, which means users should always try if their demand can be sufficed using Great Lakes first and only use Whistler if they have to. The Ph.D. student will be responsible for their mentees' use of Whistler - make sure to educate mentees about best practices and responsibilities that comes with `sudo` access.
+Note: This guide is intended for Ph.D. students to add access for their mentees, should they require Whistler access. Remember, Whistler access should be given on a need-to-use basis, which means users should always try if their demand can be sufficed using Great Lakes first and only use Whistler if they have to. The Ph.D. student will be responsible for their mentees' use of Whistler - make sure to educate mentees about best practices and responsibilities that comes with `sudo` access.
 
 Add a new user via command line:
 ```
