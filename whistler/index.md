@@ -8,7 +8,7 @@ permalink: /whistler
 ---
 # Guide to Using Whistler
 
-![Whistler](whistler.jpg)
+![Whistler](/compute-guide/whistler/whistler.jpg)
 
 Whistler is a lab-owned server sitting in BBB 2912. It has the following hardware:
 
