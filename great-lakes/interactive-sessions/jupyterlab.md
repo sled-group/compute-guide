@@ -2,6 +2,7 @@
 layout: default
 title: JupyterLab
 parent: Interactive Sessions
+grand_parent: Great Lakes
 nav_order: 1
 ---
 # JupyterLab

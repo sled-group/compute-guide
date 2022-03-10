@@ -2,6 +2,7 @@
 layout: default
 title: Interactive Sessions
 nav_order: 3
+parent: Great Lakes
 description: "Guide on How to Use Interactive Sessions on Great Lakes"
 has_children: true
 permalink: /great-lakes/interactive-sessions

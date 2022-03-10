@@ -2,6 +2,7 @@
 layout: default
 title: tail -f /dev/null
 parent: Interactive Sessions
+grand_parent: Great Lakes
 nav_order: 3
 ---
 # "tail -f /dev/null" Trick

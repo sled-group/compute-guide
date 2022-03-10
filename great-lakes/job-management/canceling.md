@@ -2,6 +2,7 @@
 layout: default
 title: Canceling Your Job
 parent: Job Management
+grand_parent: Great Lakes
 nav_order: 1
 ---
 # Canceling Your Job

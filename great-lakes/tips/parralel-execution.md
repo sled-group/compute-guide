@@ -2,6 +2,7 @@
 layout: default
 title: To really utilize the multi cores in GL
 parent: Tips
+grand_parent: Great Lakes
 nav_order: 1
 ---
 # Choose the correct library

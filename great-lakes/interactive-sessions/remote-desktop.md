@@ -2,6 +2,7 @@
 layout: default
 title: Remote Desktop
 parent: Interactive Sessions
+grand_parent: Great Lakes
 nav_order: 2
 ---
 # Remote Desktop

@@ -2,6 +2,7 @@
 layout: default
 title: Scratch Storage
 parent: Storage
+grand_parent: Great Lakes
 nav_order: 1
 ---
 

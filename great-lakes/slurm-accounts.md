@@ -2,6 +2,7 @@
 layout: default
 title: Slurm Accounts
 nav_order: 2
+parent: Great Lakes
 description: "Guide to using the right Slurm accounts"
 permalink: /great-lakes/slurm-accounts
 ---

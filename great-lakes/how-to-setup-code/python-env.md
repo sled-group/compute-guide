@@ -2,6 +2,7 @@
 layout: default
 title: Python Environment
 parent: How to Setup Your Code
+grand_parent: Great Lakes
 nav_order: 1
 ---
 # Python Environment

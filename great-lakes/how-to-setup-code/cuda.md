@@ -1,7 +1,8 @@
 ---
 layout: default
 title: CUDA
-parent: How to Setup CUDA
+parent: How to Setup Your Code
+grand_parent: Great Lakes
 nav_order: 2
 ---
 # CUDA

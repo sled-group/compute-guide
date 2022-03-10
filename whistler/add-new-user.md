@@ -2,6 +2,7 @@
 layout: default
 title: Whistler
 nav_order: 1
+parent: Whistler
 description: "Add new user."
 permalink: /whistler/add-new-user
 ---
