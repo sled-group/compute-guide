@@ -8,6 +8,8 @@ permalink: /whistler
 ---
 # Guide to Using Whistler
 
+![Whistler](whistler.jpg)
+
 Whistler is a lab-owned server sitting in BBB 2912. It has the following hardware:
 
 - **CPU**: Intel Core i9-10900X (10 physical cores, 20 threads, 3.7GHz, Liquid Cooling)
