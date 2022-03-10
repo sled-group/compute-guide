@@ -2,7 +2,7 @@
 layout: default
 title: Great Lakes
 has_children: true
-nav_order: 1
+nav_order: 2
 description: "This is a guide to using the Great Lakes Slurm cluster of the University of Michigan."
 permalink: /great-lakes
 ---

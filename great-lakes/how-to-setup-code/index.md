@@ -2,6 +2,7 @@
 layout: default
 title: How to Setup Your Code
 nav_order: 4
+parent: Great Lakes
 description: "Guide on How to Setup Your Code"
 has_children: true
 permalink: /great-lakes/how-to-setup-code
