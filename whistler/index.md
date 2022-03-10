@@ -24,4 +24,4 @@ The intention of this compute is to help with tasks that is not doable on Great 
 
 For these reasons, all users are given `sudo` access on Whistler. Remember, with great `sudo` power comes great responsibility. Be responsible and know what you are doing before doing it!
 
-All Ph.D. students in the lab has been added as a user. For SLED mentees who need access to Whistler, please ask your mentor to add you as a user following [guide to adding new user](/whistler/add-new-user).
+All Ph.D. students in the lab has been added as a user. For SLED mentees who need access to Whistler, please ask your mentor to add you as a user following [guide to adding new user](/compute-guide/whistler/add-new-user).
