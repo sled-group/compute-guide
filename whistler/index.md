@@ -8,8 +8,20 @@ permalink: /whistler
 ---
 # Guide to Using Whistler
 
-Whistler is a lab-owned server sitting in BBB 2912. The intention of this compute is to help with tasks that is not doable on Great Lakes such as:
+Whistler is a lab-owned server sitting in BBB 2912. It has the following hardware:
+
+- CPU: Intel Core i9-10900X (10 physical cores, 20 threads, 3.7GHz, Liquid Cooling)
+- Memory: 256GB DDR4 3200MHz 
+- GPU: 2x Nvidia Quadro RTX A6000 48Gb
+- Disk: 2x 3.8Tb SSD
+- Network: 10 Gbps dual port
+- System: Ubuntu 20.04
+- Power Supply: 1300w
+
+The intention of this compute is to help with tasks that is not doable on Great Lakes such as:
 - Interactive rendering that requires a physical display
 - Programs that have special dependencies which cannot be installed on Great Lakes
 
-For these reasons, all users are given `sudo` access on Whistler. With great `sudo` power comes great responsibility.
+For these reasons, all users are given `sudo` access on Whistler. Remember, with great `sudo` power comes great responsibility. Be responsible and know what you are doing before doing it!
+
+All Ph.D. students in the lab has been added as a user. For SLED mentees who need access to Whistler, please ask your mentor to add you as a user following [guide to adding new user](/whistler/add-new-user).
