@@ -8,6 +8,15 @@ permalink: /whistler
 ---
 # Guide to Using Whistler
 
+To access (on UMich VPN or campus WI-FI):
+```
+ssh <uniquname>@sled-whistler.eecs.umich.edu
+```
+Or, if you are off-campus and don't want to use VPN, you can also do:
+```
+ssh -J <uniqname>@login.itd.umich.edu <uniquname>@sled-whistler.eecs.umich.edu
+```
+
 ![Whistler](/compute-guide/whistler/whistler.jpg)
 
 Whistler is a lab-owned server sitting in BBB 2912. It has the following hardware:
