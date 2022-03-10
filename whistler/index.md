@@ -8,7 +8,7 @@ permalink: /whistler
 ---
 # Guide to Using Whistler
 
-To access (on UMich VPN or campus WI-FI):
+To access (on UMich VPN or campus Wi-Fi):
 ```
 ssh <uniquname>@sled-whistler.eecs.umich.edu
 ```
