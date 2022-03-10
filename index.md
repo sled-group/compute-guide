@@ -4,7 +4,6 @@ title: Home
 nav_order: 1
 description: "This is a guide to using various compute resources at SLED Research Group."
 permalink: /
-has_toc: true
 ---
 # Compute Resources at SLED Research Group
 
