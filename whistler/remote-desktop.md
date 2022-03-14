@@ -16,13 +16,14 @@ First, if `~/.vnc/xstartup` already exists, back it up by moving it:
 mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 ```
 
-If it does not exist, create it:
+If it does not exist, create it and set its permission:
 
 ```
 cd ~
 mkdir .vnc
 cd .vnc
 touch xstartup
+chmod 700 xstartup
 ```
 Then add the following lines to it (via `nano` or `vim`):
 ```
@@ -60,7 +61,6 @@ Starting applications specified in /home/<uniqname>/.vnc/xstartup
 Log file is /home/<uniqname>/.vnc/sled-whistler.eecs.umich.edu:2.log
 
 Use xtigervncviewer -SecurityTypes VncAuth -passwd /home/<uniqname>/.vnc/passwd :2 to connect to the VNC server.
-
 ```
 
 Note the `:2` above - it starts from `:2` because `:1` has been taken. This means this new VNC session was started at `5902` port. VNC uses ports starting from `5901`. So `:1` will spawn at `5901`; :2` will spawn at `5902` and so on.
