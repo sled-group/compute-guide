@@ -38,7 +38,7 @@ xsetroot -solid grey
 vncconfig -iconic &
 ```
 
-This tells the VNC server to use `xfce` as its desktop (GUI) provider as opposed to the default gnome desktop. This is because gnome desktop does not seem to support multiple simoutaneous VNC session for one user; it also occasionally freezes and become non-responding.
+This tells the VNC server to use `xfce` as its desktop (GUI) provider as opposed to the default gnome desktop. This is because gnome desktop does not seem to support multiple simoutaneous VNC sessions for one user; it also occasionally freezes and becomes non-responding.
 
 ## Start VNC server
 
