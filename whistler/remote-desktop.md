@@ -8,7 +8,7 @@ permalink: /whistler/remote-desktop
 ---
 # How to get Desktop/GUI access to Whistler remotely
 
-## Configure VNC
+## Configure VNC (Only need to do this one time)
 `TigerVNC`, which is a VNC server program, has been installed on Whistler. All we need to do is to modify `~/.vnc/xstartup`.
 
 First, if `~/.vnc/xstartup` already exists, back it up by moving it:
