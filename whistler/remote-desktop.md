@@ -55,7 +55,7 @@ This will output something like this:
 Warning: sled-whistler.eecs.umich.edu:1 is taken because of /tmp/.X1-lock
 Remove this file if there is no X server sled-whistler.eecs.umich.edu:1
 
-New 'sled-whistler.eecs.umich.edu:3 (<uniqname>)' desktop at :2 on machine sled-whistler.eecs.umich.edu
+New 'sled-whistler.eecs.umich.edu:2 (<uniqname>)' desktop at :2 on machine sled-whistler.eecs.umich.edu
 
 Starting applications specified in /home/<uniqname>/.vnc/xstartup
 Log file is /home/<uniqname>/.vnc/sled-whistler.eecs.umich.edu:2.log
