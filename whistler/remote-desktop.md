@@ -63,7 +63,7 @@ Log file is /home/<uniqname>/.vnc/sled-whistler.eecs.umich.edu:2.log
 Use xtigervncviewer -SecurityTypes VncAuth -passwd /home/<uniqname>/.vnc/passwd :2 to connect to the VNC server.
 ```
 
-Note the `:2` above - it starts from `:2` because `:1` has been taken. This means this new VNC session was started at `5902` port. VNC uses ports starting from `5901`. So `:1` will spawn at `5901`; :2` will spawn at `5902` and so on.
+Note the `:2` above - it starts from `:2` because `:1` has been taken. This means this new VNC session was started at `5902` port. VNC uses ports starting from `5901`. So `:1` will spawn at `5901`; `:2` will spawn at `5902` and so on.
 
 Now the VNC server is up and running!
 
