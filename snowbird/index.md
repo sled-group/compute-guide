@@ -2,7 +2,7 @@
 layout: default
 title: Snowbird
 has_children: true
-nav_order: 3
+nav_order: 4
 description: "This is a guide to using the Snowbird workstation at SLED Reserch Group."
 permalink: /snowbird
 ---
@@ -24,7 +24,7 @@ Snowbird is a lab-owned server sitting in BBB 2912. It has the following hardwar
 - **CPU**: Intel Xeon Silver 4216 @ 32x 3.2GHz
 - **Memory**: 64GB
 - **GPU**: NVIDIA RTX A4000
-<!-- - **Disk**: 2x 3.8TB SSD -->
+- **Disk**: 1TB SSD + 4TB HDD
 <!-- - **Network**: 10 Gbps dual port -->
 - **System**: Ubuntu 18.04 **DO NOT UPGRADE**
 <!-- - **Power Supply**: 1300w -->
