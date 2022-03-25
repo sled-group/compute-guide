@@ -5,7 +5,6 @@ nav_order: 100
 parent: Great Lakes
 description: "Tips to survive with bugs&features of GL"
 has_children: true
-permalink: /great-lakes/interactive-sessions
 ---
 
 # Tips
