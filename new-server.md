@@ -3,7 +3,7 @@ layout: default
 title: Set Up New Server (For Administrators)
 nav_order: 100
 description: "Guide to set up new server at SLED Research Group."
-permalink: /
+permalink: /new-server
 ---
 # Set Up New Server (For Administrators)
 
