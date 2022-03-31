@@ -79,7 +79,7 @@ Or off-VPN through jump machine:
 ssh -J <uniqname>@login.itd.umich.edu  -L 59000:localhost:5902 -C -N -l <uniqname> sled-whistler.eecs.umich.edu
 ```
 
-Then, on your laptop, open your favorite VNC client. For macOS users, the Finder already has a built-in VNC tool: `Go > Connect to Server`.
+Then, on your laptop, open your favorite VNC client. For macOS users, the Finder already has a built-in VNC tool: `Go > Connect to Server`. (Btw, I recommend checkout `RealVNC` client for Mac users - it seems to be faster.)
 
 To connect:
 - Host: localhost
