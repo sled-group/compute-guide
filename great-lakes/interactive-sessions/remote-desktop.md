@@ -25,7 +25,7 @@ Sometimes, you are off-campus and you dont want to connect to VPN, but you also 
 
 First, if `~/.vnc/xstartup.turbovnc` already exists, back it up by moving it:
 ```
-mv ~/.vnc/xstartup ~/.vnc/xstartup.turbovnc.bak
+mv ~/.vnc/xstartup.turbovnc ~/.vnc/xstartup.turbovnc.bak
 ```
 
 If it does not exist, create it and set its permission:
