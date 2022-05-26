@@ -1,28 +1,32 @@
 ---
 layout: default
 title: Install VirtualGL+TurboVNC to Enable 3D Acceleration for Remote Access
-nav_order: 100
+nav_order: 110
 description: "Guide to install VirtualGL+TurboVNC for new servers."
 permalink: /virtualgl-installation
 ---
-# Background Knowledge: What is VirtualGL and X server?
+# Background Knowledge
 
-Understanding what X server is: https://www.youtube.com/playlist?list=PLXEcKYHTGBdQqfmIiyw6KueAFExDGVQbx
+[Understanding what X server is](https://www.youtube.com/playlist?list=PLXEcKYHTGBdQqfmIiyw6KueAFExDGVQbx)
 
-Understanding what VirtualGL is: https://virtualgl.org/About/Background
+[Understanding what VirtualGL is](https://virtualgl.org/About/Background)
 
 # Part A: TurboVNC + VirtualGL Installation Guide
 
 ### Uninstall Current VNC (*TurboVNC* for example): 
 
-```dpkg -r turbovnc```
+```
+dpkg -r turbovnc
+```
 
 *Reference: https://virtualgl.org/vgldoc/2_1_3/#hd005006*
 
 
 ### Uninstall Nvidia-*:
 
-```sudo apt-get remove --purge '^nvidia-.*'```
+```
+sudo apt-get remove --purge '^nvidia-.*'
+```
 
 - `nvidia-smi` to check whether nvidia driver has been uninstalled
 
@@ -39,9 +43,13 @@ Follow the [Reference Video](https://www.youtube.com/watch?v=FAknvXs4M1w)
 
 ### Disable "HardDPMS" in xorg.conf:
 
-```sudo nvidia-xconfig -a --allow-empty-initial-configuration```
+```
+sudo nvidia-xconfig -a --allow-empty-initial-configuration
+```
 
-```Sudo vim /etc/X11/xorg.conf```
+```
+sudo vim /etc/X11/xorg.conf
+```
 
 Delete all lines about "DPMS"
 
