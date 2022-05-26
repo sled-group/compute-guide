@@ -5,6 +5,12 @@ nav_order: 100
 description: "Guide to install VirtualGL+TurboVNC for new servers."
 permalink: /virtualgl-installation
 ---
+# Background Knowledge: What is VirtualGL and X server?
+
+Understanding what X server is: https://www.youtube.com/playlist?list=PLXEcKYHTGBdQqfmIiyw6KueAFExDGVQbx
+
+Understanding what VirtualGL is: https://virtualgl.org/About/Background
+
 # Part A: TurboVNC + VirtualGL Installation Guide
 
 ### Uninstall Current VNC (*TurboVNC* for example): 
