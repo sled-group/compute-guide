@@ -11,31 +11,13 @@ permalink: /whistler/add-new-user
 Note: This guide is intended for Ph.D. students to add access for their mentees, should they require Whistler access. Remember, Whistler access should be given on a need-to-use basis, which means users should always try if their demand can be sufficed using Great Lakes first and only use Whistler if they have to. The Ph.D. student will be responsible for their mentees' use of Whistler - make sure to educate mentees about best practices and responsibilities that comes with `sudo` access.
 
 Add a new user via command line:
-```
-sudo adduser <uniqname>
-```
-You will see output like this - create a temporary password, and set the full name of the user:
+
+Whistler has been set up by DCO and has a UMich user management system
 
 ```
-Adding user `<uniqname>' ...
-Adding new group `<uniqname>' (1001) ...
-Adding new user `<uniqname>' (1001) with group `<uniqname>' ...
-Creating home directory `/home/<uniqname>' ...
-Copying files from `/etc/skel' ...
-Enter new UNIX password: 
-Retype new UNIX password: 
-passwd: password updated successfully
-Changing the user information for <uniqname>
-Enter the new value, or press ENTER for the default
-    Full Name []: 
-    Room Number []: 
-    Work Phone []: 
-    Home Phone []: 
-    Other []: 
-Is the information correct? [Y/n]
+sudo dcoadduser <uniqname>
 ```
-
-Press `Y` to confirm.
+This command will add a user to Whistler and they can access the machine using their umich credentials.
 
 Add the new user to have `sudo` access:
 ```
