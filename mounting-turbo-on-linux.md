@@ -49,18 +49,21 @@ sudo nfsidmap -c
 
 **This is only needed if a server is not set up by DCO and thus its UIDs and GIDs for the users are not in sync with those in UMich directory.**
 
+> :warning: **WARNING**: This will break the whole file system for a user if not run properly. Make sure you know what you are doing. Be sure the change the fields with `<>` in the script with the correct information.
+
 Tell the user to not use the computer until the followings finish.
 
 Use a different user account to log in:
 
 ```bash
-ssh [simbotshared@sled-whistler.eecs.umich.edu](mailto:simbotshared@sled-whistler.eecs.umich.edu)
+ssh <some_other_user>@<linux_machine_hostname>
 sudo su
 ```
 
 Log off that user first:
 
 [https://askubuntu.com/questions/12180/logging-out-other-users-from-the-command-line](https://askubuntu.com/questions/12180/logging-out-other-users-from-the-command-line)
+
 
 ```bash
 sudo pkill -KILL -u <username>
@@ -73,11 +76,11 @@ Below is the script:
 ```bash
 # put the information we need in variables
 
-username=jianingy
+username=<uniqname>
 
-old_uid=1001  # looks up current (old) uid
+old_uid=<old_uid>  # looks up current (old) uid
 
-new_uid=114271901
+new_uid=<new_uid>
 
 # do dangerous stuff
 
