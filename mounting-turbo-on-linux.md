@@ -60,18 +60,18 @@ ssh <some_other_user>@<linux_machine_hostname>
 sudo su
 ```
 
-Log off that user first:
+Log off the user whose UID/GID needs to be changed:
 
 [https://askubuntu.com/questions/12180/logging-out-other-users-from-the-command-line](https://askubuntu.com/questions/12180/logging-out-other-users-from-the-command-line)
 
 
 ```bash
 sudo pkill -KILL -u <username>
-vim /home/simbotshared/change_uid_gid.sh    # modify the necessary username, UID/GID
-sh /home/simbotshared/change_uid_gid.sh
+vim /home/<some_other_user>/change_uid_gid.sh    # modify the necessary username, UID/GID
+sh /home/<some_other_user>/change_uid_gid.sh
 ```
 
-Below is the script:
+Below is the `change_uid_gid.sh` script:
 
 ```bash
 # put the information we need in variables
