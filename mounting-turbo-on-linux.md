@@ -49,7 +49,7 @@ sudo nfsidmap -c
 
 **This is only needed if a server is not set up by DCO and thus its UIDs and GIDs for the users are not in sync with those in UMich directory.**
 
-> :warning: **WARNING**: This will break the whole file system for a user if not run properly. Make sure you know what you are doing. Be sure the change the fields with `<>` in the script with the correct information.
+> ⛔️️ **WARNING**: This will break the whole file system for a user if not run properly. Make sure you know what you are doing. Be sure the change the fields with `<>` in the script with the correct information.
 
 Tell the user to not use the computer until the followings finish.
 
