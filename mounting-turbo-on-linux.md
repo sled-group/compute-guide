@@ -19,11 +19,11 @@ sudo mount -t nfs coe-chaijy.turbo.storage.umich.edu:/coe-chaijy /nfs/turbo/coe-
 ```
 Un-mount:
 ```
-umount -f -l /nfs/turbo/coe-chaijyaijy
+umount -f -l /nfs/turbo/coe-chaijy
 ```
 
 ## To fix NFS UID displayed as “nobody”
-Overwrite /etc/idmapd.conf with the following (need `sudo` to write to `/etc/idmapd.conf`):
+Overwrite `/etc/idmapd.conf` with the following (need `sudo` to write to `/etc/idmapd.conf`):
 ```
 [General]
 
