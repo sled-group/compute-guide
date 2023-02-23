@@ -4,7 +4,7 @@ title: DropBox
 has_children: false
 nav_order: 5
 description: "This is a guide to using SLED Research Group DropBox team folder."
-permalink: /whistler
+permalink: /dropbox
 ---
 # About DropBox Team Folder
 SLED has a [DropBox Team Folder](https://www.dropbox.com/home/ENGIN-SLED-Research-Data) linked to the `sled-group` [MCommunity group](https://mcommunity.umich.edu/group/SLED%20Research%20Group). It is meant for long-term storage of *de-identified human subjects data* collected during IRB regulated research projects.
