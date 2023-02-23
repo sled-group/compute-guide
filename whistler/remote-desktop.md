@@ -40,9 +40,9 @@ vncconfig -iconic &
 
 This tells the VNC server to use `xfce` as its desktop (GUI) provider as opposed to the default gnome desktop. This is because gnome desktop does not seem to support multiple simoutaneous VNC sessions for one user; it also occasionally freezes and becomes non-responding.
 
-## Start VNC server
+## Start VNC session
 
-Each time you need to access remote desktop, you need to start the VNC server first via:
+Each time you need to access remote desktop, you need to start a VNC session first via:
 
 ```
 vncserver
@@ -67,7 +67,7 @@ Note the `:2` above - it starts from `:2` because `:1` has been taken. This mean
 
 Now the VNC server is up and running!
 
-## Connect to VNC server
+## Connect to a VNC session
 First, we need to establish an SSH tunneling to forward the `5902` port to our own computer and then connect via `localhost`. To establish the SSH tunnel (on Campus Wi-Fi or UMich VPN), on your laptop:
 ```
 ssh -L 59000:localhost:5902 -C -N -l <uniqname> sled-whistler.eecs.umich.edu
@@ -92,15 +92,15 @@ You will be asked to enter the password you set for VNC.
 Then you should be entering the desktop (GUI).
 
 
-## Kill VNC server
+## Kill a VNC session
 
-To show active VNC servers:
+To show active VNC sessions:
 ```
-ps -ef | grep vnc
+vncserver -list
 ```
-Look up the server number you want to terminate, e.g. `:3`.
+Look up the session number you want to terminate, e.g. `:3`.
 
-To end a VNC server (e.g. `:3`), on Whistler:
+To end a VNC session (e.g. `:3`), on Whistler:
 ```
 vncserver -kill :3
 ```
