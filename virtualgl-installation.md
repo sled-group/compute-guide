@@ -5,6 +5,8 @@ nav_order: 110
 description: "Guide to install VirtualGL+TurboVNC for new servers."
 permalink: /virtualgl-installation
 ---
+> ⛔️️ **WARNING**: This will require a server reboot and will break the Nvidia driver for all users if not done properly. Make sure you know what you are doing. Otherwise, don't do anything!
+
 # Background Knowledge
 
 [Understanding what X server is](https://www.youtube.com/playlist?list=PLXEcKYHTGBdQqfmIiyw6KueAFExDGVQbx)
