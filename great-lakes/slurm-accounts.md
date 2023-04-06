@@ -26,6 +26,6 @@ Read below to determine which account to use:
 
 **To avoid any accidental charges to the wrong account, make sure you carefully specify the billing account on all jobs.** You can do this either in the [header of your Slurm job script](https://arc.umich.edu/greatlakes/slurm-user-guide/), or under “Job Options” in the [Great Lakes Job Composer](https://greatlakes.arc-ts.umich.edu/pun/sys/myjobs).
 
-**If you need to be added to any of SLED’s Great Lakes accounts, please contact Shane Storks.** Most of us should be granted access to chaijy0 and chaijy2 upon joining SLED, but it’s possible some members have been missed. We’ll be trying to keep the list of users up to date.
+**If you need to be added to any of SLED’s Great Lakes accounts, please contact any of SLED's PhD students.** Most of us should be granted access to chaijy0 and chaijy2 upon joining SLED, but it’s possible some members have been missed. We’ll be trying to keep the list of users up to date.
 
 **To check usage limits and account membership,** take a look at the [ITS portal](https://portal.arc.umich.edu/projects).
