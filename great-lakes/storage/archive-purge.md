@@ -95,3 +95,5 @@ done
 # Wait for all parallel tasks to complete
 wait
 ```
+
+Once you've determined which data to archive, you can use `archivetar` to do so. See [Data Den](data-den.md) for more details.
