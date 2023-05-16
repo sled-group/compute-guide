@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Docker Display via VNC
+title: GUI applications in Docker
 nav_order: 3
 parent: Whistler
 description: "Running GUI application in Docker and connect to it via VNC."
 permalink: /whistler/docker-display-vnc
 ---
 # Running GUI application in Docker and connect to it via VNC
+
+## Connect via VNC to the host machine
 
 ## Copying the Cookie to connect X Server Displays
 ```
@@ -65,3 +67,14 @@ The output should be:
 root@sled-whistler:/# echo $DISPLAY
 :<i>
 ```
+## Verification
+
+Run `glxgears` in the Docker container, 
+```
+glxgears
+```
+if glxgears isn't available inside docker,install it with
+```
+sudo apt install mesa-utils
+```
+You should now see a gears window running in VNC. If everything runs fine, you can now start the GUI application you need in the Docker.
