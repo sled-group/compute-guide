@@ -1,10 +1,10 @@
 ---
 layout: default
 title: GUI applications in Docker
-nav_order: 3
-parent: Whistler
+nav_order: 5
+parent: compute-guide
 description: "Running GUI application in Docker and connect to it via VNC."
-permalink: /whistler/docker-display-vnc
+permalink: /docker-display-vnc
 ---
 # Running GUI application in Docker and connect to it via VNC
 
