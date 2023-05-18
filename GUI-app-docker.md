@@ -1,11 +1,12 @@
 ---
 layout: default
-title: GUI applications in Docker
-nav_order: 5
-parent: compute-guide
+title: Running GUI applications in Docker
+nav_order: 125
+has_children: false
 description: "Running GUI application in Docker and connect to it via VNC."
 permalink: /docker-display-vnc
 ---
+
 # Running GUI application in Docker and connect to it via VNC
 
 ## Connect via VNC to the host machine
