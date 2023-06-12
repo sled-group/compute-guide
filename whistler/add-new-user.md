@@ -35,3 +35,9 @@ chown <uniqname>:<uniqname> <uniqname>
 Now give the new user their username and password (do **NOT** send this in plain text electronically!) and tell them to [change their password](https://www.cyberciti.biz/faq/change-a-user-password-in-ubuntu-linux-using-passwd/) as soon as possible.
 
 Also tell the new user to set up key-pair access and use that to log in as soon as possible, as opposed to using password login.
+
+Add them to the `/nfs/turbo/coe-chaijy/` on whistler:
+1. Add them on [ARC portal](https://portal.arc.umich.edu/project/chaijy) Turbo Storage.  
+2. Add them to the turbo group on whistler `sudo usermod -a -G coe-chaijy-turbo  <uniqname>`
+
+More usage policy for turbo, pls refer to [here](/great-lakes/storage/turbo.md)
