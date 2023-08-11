@@ -31,8 +31,8 @@ Aspen is a lab-owned server sitting in BBB 2912. It has the following hardware:
 
 The intention of this compute is to help with tasks that is not doable on Great Lakes such as:
 - Machine learning development
+- Deadline-sensitive tasks
 
 Note:
 - This workstation does not have a monitor or keyboard. We don't intend to add one due to space constraints in our 2nd floor lab. Please use SSH to access the workstation.
-
-For SLED mentees who need access to Aspen, please ask your mentor to add you as a user following [guide to adding new user](/compute-guide/whistler/add-new-user).
+- Because this machine will handle deadline-sensitive tasks which need the machine to be reliably running, we will reserve `sudo` access only to PhD students. For mentees who needs to install software, please ask your mentor to install it for you.
