@@ -99,7 +99,7 @@ sudo Xorg -noreset +extension GLX +extension RANDR +extension RENDER -logfile ./
 ```
 This starts the X server at display `:20`. 
 
-Then, you can run `vglrun -d :20 glxgears` to run the program at the newly started at `:20`.
+Then, you can run `vglrun -d :20 glxgears` to run the program at the newly started X server at `:20`.
 
 
 # Part B: GPU Access on a remote Linux server in ThreeDWorld
