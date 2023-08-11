@@ -93,6 +93,13 @@ vglrun glxgears
 
 Make sure a new process using GPU called ***glxgears*** appear in the first terminal.
 
+You can also manually starta a X-server by:
+```
+sudo Xorg -noreset +extension GLX +extension RANDR +extension RENDER -logfile ./xdummy.log -config ./xorg.conf :20 &
+```
+This starts the X server at display `:20`. 
+
+Then, you can run `vglrun -d :20 glxgears` to run the program at the newly started at `:20`.
 
 
 # Part B: GPU Access on a remote Linux server in ThreeDWorld
