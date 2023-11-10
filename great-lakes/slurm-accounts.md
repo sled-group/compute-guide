@@ -28,4 +28,4 @@ Read below to determine which account to use:
 
 **If you need to be added to any of SLED’s Great Lakes accounts, please contact any of SLED's PhD students.** Most of us should be granted access to chaijy0 and chaijy2 upon joining SLED, but it’s possible some members have been missed. We’ll be trying to keep the list of users up to date.
 
-**To check usage limits and account membership,** take a look at the [ITS portal](https://portal.arc.umich.edu/projects).
+**To check usage limits and account membership,** take a look at the [ITS portal](https://portal.arc.umich.edu/projects). To add or remove membership: manage through the [ITS portal](https://portal.arc.umich.edu/projects).
