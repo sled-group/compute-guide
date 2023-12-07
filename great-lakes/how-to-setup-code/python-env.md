@@ -45,7 +45,15 @@ source venv/bin/activate
 4. While your virtual environment is activated, you can use both `conda install` or `pip install` to install your desired packages.
     1. Do be careful about conflicts if you use both `conda` and `pip`.
 
-Then, your job script should include the following commands before your main command:
+### Troubleshooting
+If you are having trouble activating your envrionment through the slurm .sh script, try adding these lines:
+####For python3.10-anaconda
+```bash
+module load python3.10-anaconda
+source activate base
+conda activate <env-name
+```
+####For python3.8-anaconda/2021.05
 ```bash
 module load python3.8-anaconda/2021.05
 # we need to source this script due to this issue: https://github.com/conda/conda/issues/7980
