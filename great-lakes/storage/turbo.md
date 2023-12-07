@@ -10,7 +10,7 @@ nav_order: 1
 
 [Turbo](https://arc.umich.edu/turbo/turbo-user-guide/) is a high-capacity, reliable, secure, and fast storage solution. It is slower than `/scratch` or `/home`, but the data on Turbo are periodically backed up and won't be purged. Turbo is appropriate for fairly static data that needs ready access, such as data sets or pretrained weights. _Turbo is **NOT** the choice for your code or other development artifacts!!!_
 
-You can access Turbo on a Great Lakes node at `/nfs/turbo/coe-chiajy`. Since it's an nfs, it can be mounted on other servers, such as your personal desktop. The detailed instructions can be found [here](https://arc.umich.edu/turbo/turbo-user-guide/#document-2).
+You can access Turbo on a Great Lakes node at `/nfs/turbo/coe-chaijy`. Since it's an nfs, it can be mounted on other servers, such as your personal desktop. The detailed instructions can be found [here](https://arc.umich.edu/turbo/turbo-user-guide/#document-2).
 
 ## Performance Considerations
 
