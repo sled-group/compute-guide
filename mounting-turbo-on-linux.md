@@ -67,7 +67,8 @@ Log off the user whose UID/GID needs to be changed:
 
 ```bash
 sudo pkill -KILL -u <username>
-vim /home/<some_other_user>/change_uid_gid.sh    # modify the necessary username, UID/GID
+# modify the necessary username, UID/GID
+vim /home/<some_other_user>/change_uid_gid.sh
 sh /home/<some_other_user>/change_uid_gid.sh
 ```
 
@@ -78,8 +79,8 @@ Below is the `change_uid_gid.sh` script:
 
 username=<uniqname>
 
-old_uid=<old_uid>  # looks up current (old) uid
-
+# looks up current (old) uid
+old_uid=<old_uid>
 new_uid=<new_uid>
 
 # do dangerous stuff
@@ -98,9 +99,10 @@ groupmod -g $new_uid $username
 
 # only the uid xor the gid matches won't be updated
 
-chown -Rhc --from=$old_uid $new_uid /    # change the user IDs
-
-chown -Rhc --from=:$old_uid :$new_uid /  # change the group IDs
+# change the user IDs
+chown -Rhc --from=$old_uid $new_uid /
+# change the group IDs
+chown -Rhc --from=:$old_uid :$new_uid /
 
 setfacl -m "u:$new_uid:r-x" /media/$username
 
