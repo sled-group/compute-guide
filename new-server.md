@@ -12,14 +12,3 @@ At SLED lab, we name our servers after [ski resorts](https://www.skiresort.info/
 
 ## DCO Setup
 Email UMich DCO staff Jamie Goldsmith (jlgoldsm@umich.edu) and Laura Fink (laura@umich.edu) to request a DCO set up for the new server. Give them the hostname (e.g. "sled-beavercreek.eecs.umich.edu") that you came up with in the previous step. UMich DCO will help set up the machine including registering its MAC address (so that it gets Internet access), adding their public key to `root` access (so that they can maintain it when needed) and adding directory service (so that users can use their UMich username and password to log in when system admin add them via `dcoadduser`), etc.
-
-## Install TigerVNC
-
-Install `xfce`:
-```
-sudo apt install xfce4 xfce4-goodies
-```
-We are ready to install the TigerVNC Server and its dependencies.
-```
-sudo apt install tigervnc-standalone-server tigervnc-common
-```
