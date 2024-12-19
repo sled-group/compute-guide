@@ -14,6 +14,7 @@ Welcome to SLED lab! To assist you with the onboarding process, here is a checkl
 - [ ] Compute Resource Access
 - [ ] Google Drive Access
 - [ ] Group Github Access
+- [ ] General Tips
 - [ ] More ongoing ...
 
 ## Lab Access
@@ -60,15 +61,6 @@ We have several compute resources available in our lab. They can be broadly cate
 2. **Cluster Servers:**
     The Great Lakes Slurm cluster is a computing cluster which is the main computing resource you will be using for your research at the University of Michigan. If you would like to have the access to the great lakes cluster, you need to first follow the instructions [here](https://its.umich.edu/advanced-research-computing/high-performance-computing/great-lakes/getting-started) and then ask our senior Ph.D. students to add you into our lab's account. Check [this section](https://sled-group.github.io/compute-guide/great-lakes) for more details.
 
-**General Tips**:
-1. You are free to use the lab space, including the fridge, microwave, and other shared facilities, but please keep the area tidy and clean.
-2. Whistler and Aspen Usage: These machines are frequently used and often have ongoing demo processes. When running your own code, ensure that you do not interfere with existing processes, especially those utilizing the GPU. You can use `top` and `nvidia-smi` to monitor CPU/GPU usage, and set the `CUDA_VISIBLE_DEVICES` environment variable to choose which GPU to use.
-3. Mentee Access and Responsibilities: You may add your mentees to the compute resources, but you are fully responsible for training them to use these resources properly. In the event that you or your mentees cause an issue with the local machines (e.g., upgrading shared utilities without authorization, causing crashes), you are responsible for restoring them to normal operation.
-4. Rebooting Local Machines: If you need to reboot a local machine, inform all users at least one day in advance via the `#compute` channel so they can pause and save their work beforehand.
-5. GPU Usage on Great Lakes: Due to limited GPU availability, the total GPU usage per Ph.D. student (including their mentees) must not exceed 12 GPUs. If you need to temporarily exceed this limit for up to 4 hours, send a brief notice in the `#compute` channel. Other members may request that you reduce usage back to 12 GPUs. During less busy times (e.g., summer), this rule may be relaxed, and scheduling will be managed through Slurm.
-6. `ondemand` Jobs on Great Lakes: You can use `ondemand` jobs for test-runs on Great Lakes with a GUI or an interactive environment (e.g., Jupyter notebooks, VNC desktop). However, please keep `ondemand` jobs under 8 hours since they do not automatically close. It’s unlikely you will be continuously working for more than 8 hours, and leaving jobs running longer than necessary may block resources.
-
-
 
 ## SLED Google Drive
 
@@ -79,3 +71,12 @@ We maintain several shared Google Drives for the lab. To gain access, please rea
 
 We have a group [github account](https://github.com/sled-group) where we open source our codes. Please reach out to senior Ph.D. students to add you as a member.
 
+
+
+## General Tips
+1. You are free to use the lab space, including the fridge, microwave, and other shared facilities, but please keep the area tidy and clean.
+2. Whistler and Aspen Usage: These machines are frequently used and often have ongoing demo processes. When running your own code, ensure that you do not interfere with existing processes, especially those utilizing the GPU. You can use `top` and `nvidia-smi` to monitor CPU/GPU usage, and set the `CUDA_VISIBLE_DEVICES` environment variable to choose which GPU to use.
+3. Mentee Access and Responsibilities: You may add your mentees to the compute resources, but you are fully responsible for training them to use these resources properly. In the event that you or your mentees cause an issue with the local machines (e.g., upgrading shared utilities without authorization, causing crashes), you are responsible for restoring them to normal operation.
+4. Rebooting Local Machines: If you need to reboot a local machine, inform all users at least one day in advance via the `#compute` channel so they can pause and save their work beforehand.
+5. GPU Usage on Great Lakes: Due to limited GPU availability, the total GPU usage per Ph.D. student (including their mentees) must not exceed 12 GPUs. If you need to temporarily exceed this limit for up to 4 hours, send a brief notice in the `#compute` channel. Other members may request that you reduce usage back to 12 GPUs. During less busy times (e.g., summer), this rule may be relaxed, and scheduling will be managed through Slurm.
+6. `ondemand` Jobs on Great Lakes: You can use `ondemand` jobs for test-runs on Great Lakes with a GUI or an interactive environment (e.g., Jupyter notebooks, VNC desktop). However, please keep `ondemand` jobs under 8 hours since they do not automatically close. It’s unlikely you will be continuously working for more than 8 hours, and leaving jobs running longer than necessary may block resources.
