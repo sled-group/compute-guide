@@ -12,3 +12,5 @@ Welcome! Please see below for the compute resources available at SLED Research G
 - [Great Lakes](/compute-guide/great-lakes)
 - [Whistler](/compute-guide/whistler)
 - [Snowbird](/compute-guide/snowbird)
+- [Aspen](/compute-guide/aspen)
+- [Vail](/compute-guide/vail)
