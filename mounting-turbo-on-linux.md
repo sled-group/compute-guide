@@ -12,14 +12,17 @@ permalink: /mounting-turbo-on-linux
 - Go to [ARC portal](https://portal.arc.umich.edu/project/chaijy/turbo/volume-detail/coe-chaijy) to view/modify user access to the Turbo volume. It also shows current remaining disk space on the Turbo volume.
 
 ## Mount/Un-mount Turbo Volume on Linux Machines
+Please make sure to mount both `turbo` and `turbo-unreplicated` volumes back every time you reboot one server. 
 
 Mount:
 ```
 sudo mount -t nfs coe-chaijy.turbo.storage.umich.edu:/coe-chaijy /nfs/turbo/coe-chaijy
+sudo mount -t nfs coe-chaijy.turbo.storage.umich.edu:/coe-chaijy-unreplicated /nfs/turbo/coe-chaijy-unreplicated
 ```
 Un-mount:
 ```
 umount -f -l /nfs/turbo/coe-chaijy
+umount -f -l /nfs/turbo/coe-chaijy-unreplicated
 ```
 
 ## To fix NFS UID displayed as “nobody”
