@@ -24,9 +24,9 @@ Snowbird is a lab-owned server sitting in BBB 2912. It has the following hardwar
 - **CPU**: Intel Xeon Silver 4216 @ 32x 3.2GHz
 - **Memory**: 64GB
 - **GPU**: NVIDIA RTX A4000
-- **Disk**: 1TB SSD + 4TB HDD
+- **Disk**: 1TB SSD + 2TB SSD + 4TB HDD
 <!-- - **Network**: 10 Gbps dual port -->
-- **System**: Ubuntu 18.04 **DO NOT UPGRADE**
+- **System**: Ubuntu 20.04 **DO NOT UPGRADE**
 <!-- - **Power Supply**: 1300w -->
 
 The intention of this compute is to help with tasks that is not doable on Great Lakes such as:

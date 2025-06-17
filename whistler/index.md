@@ -24,9 +24,9 @@ Whistler is a lab-owned server sitting in BBB 2912. It has the following hardwar
 - **CPU**: Intel Core i9-10900X (10 physical cores, 20 threads, 3.7GHz, Liquid Cooling)
 - **Memory**: 256GB DDR4 3200MHz 
 - **GPU**: 2x Nvidia Quadro RTX A6000 48GB
-- **Disk**: 2x 3.8TB SSD
+- **Disk**: 3x 4TB SSD
 - **Network**: 10 Gbps dual port
-- **System**: Ubuntu 20.04
+- **System**: Ubuntu 20.04 **DO NOT UPGRADE**
 - **Power Supply**: 1300w
 
 The intention of this compute is to help with tasks that is not doable on Great Lakes such as:

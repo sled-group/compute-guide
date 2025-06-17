@@ -8,6 +8,6 @@ permalink: /whistler/storage
 ---
 # Storage
 
-Whistler comes with two 3.8TB SSD disks. The first is mounted at `/` (the root directory) and the second is mounted at `/data/`. The first is intended to be used for the Ubuntu system and home directories; the second is intended to be used for large file storage.
+Whistler comes with three 4TB SSD disks. The first is mounted at `/` (the root directory), the second is mounted at `/home` and the third is mounted at `/data`. The first is intended to be used for the Ubuntu system, the second for home directories; the third is intended to be used for large file storage.
 
 You should store large files like datasets and training checkpoints under `/data/<uniqname>`.
