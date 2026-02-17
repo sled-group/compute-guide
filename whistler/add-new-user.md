@@ -40,4 +40,4 @@ Add them to the `/nfs/turbo/coe-chaijy/` on whistler:
 1. Add them on [ARC portal](https://portal.arc.umich.edu/project/chaijy) Turbo Storage.  
 2. Add them to the turbo group on whistler `sudo usermod -a -G coe-chaijy-turbo  <uniqname>`
 
-More usage policy for turbo, pls refer to [here](/great-lakes/storage/turbo.md)
+More usage policy for turbo, pls refer to [here](/compute-guide/great-lakes/storage/turbo.md)

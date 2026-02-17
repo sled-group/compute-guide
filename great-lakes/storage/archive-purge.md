@@ -97,3 +97,7 @@ wait
 ```
 
 Once you've determined which data to archive, you can use `archivetar` to do so. See [Data Den](data-den.md) for more details.
+
+# Hand's on Tutorial
+
+Here is the step-by-step [tutorial](https://github.com/sled-group/data-cleaning-guide) for exact storage management process. You may familiarize yourself with [data-den](/compute-guide/great-lakes/storage/data-den) first before you move on.
